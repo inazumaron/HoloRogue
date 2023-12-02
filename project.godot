@@ -14,6 +14,11 @@ config/name="Holoworlds v2"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Constants="*res://Data/Constants.gd"
+Classes="*res://Data/Classes.gd"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
